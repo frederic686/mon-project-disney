@@ -1,0 +1,46 @@
+@use "../../abstracts/colors" as*;
+
+@mixin primary-btn {
+    background-color:$four-color;
+    color: $third-color;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+@mixin secondary-btn {
+    background-color:$four-color;
+    color: $third-color;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+.select {
+
+    a {
+        @include secondary-btn;
+        
+    }
+}
+
+.link {
+    a{
+        @include secondary-btn;
+
+    }
+}
+
+
+

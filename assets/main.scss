@@ -1,0 +1,27 @@
+// layout
+@use './layout/header' as*;
+@use './layout/footer' as*;
+@use './layout/banner' as*;
+
+
+@use '../assets/pages/home' as*;
+@use "../assets/layout/headermobil" as*;
+
+//abstact
+//@use "./abstracts/variables" as *;
+//@use "./abstracts/mixins" as * ;
+//@use "./abstracts/functions" as *;
+@use "./abstracts/colors" as *;
+//@use "./abstracts/typography" as *;
+
+//base
+//@use "./base/reset" as *;
+//@use "./base/global" as * ;
+//@use "./base/reset-typography" as *;
+
+
+//buttons
+@use "./components/buttons/primary" as *;
+
+// card
+@use "./components/cards/card-banner" as *;

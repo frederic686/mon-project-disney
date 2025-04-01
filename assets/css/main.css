@@ -1,0 +1,22 @@
+header {
+  background-color: green;
+}
+
+header {
+  position: fixed;
+}
+header a {
+  text-decoration: none;
+  text-align: right;
+  background-color: #000000;
+}
+
+.banner {
+  background: url("../../assets/images/Background.png");
+  height: 200% 200%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=main.css.map */
