@@ -1,0 +1,102 @@
+@use "../abstracts/colors" as *;
+
+body {
+    background-color:$primary-color;
+}
+
+
+.secondary-nav {
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+
+        a {
+            text-decoration: none;
+            color: $third-color;
+            text-transform: uppercase;
+
+        }
+    }
+}
+
+.stream-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .column-1 {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        padding-bottom: 2rem;
+    }
+
+}
+
+.stream-img {
+    display: flex;
+    flex-direction: column;
+    .column-2 {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+    }
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    color: $third-color;
+}
+h3 {
+    color: $third-color;
+}
+
+p {
+    color: $third-color;
+}
+
+.card-pay {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 10rem;
+    
+    .paycard-1 {
+        border: none;
+        border-radius: 5px;
+        border: 2px solid $third-color;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 380px;
+        height: 523px;
+        flex-wrap: wrap;
+        align-items: center;
+
+        
+    }
+
+}
+
+.select {
+    a {
+        p {
+            background-color: $four-color;
+        }
+    }
+}
+
+.title {
+    text-align: center;
+}

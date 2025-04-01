@@ -1,0 +1,41 @@
+@use "../abstracts/colors" as*;
+
+footer {
+    background-color: $primary-color;
+
+}
+
+.footnav {
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        li{
+            a{
+                text-decoration: none;
+                color:$third-color ;
+            }
+        }
+    }
+}
+
+.footnav-secondary {
+    ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        li{
+            a{
+                text-decoration: none;
+                color:$third-color ;
+            }
+        }
+    }
+}
+
+.foot-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

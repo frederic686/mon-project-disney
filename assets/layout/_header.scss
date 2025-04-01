@@ -1,0 +1,29 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/colors" as *;
+
+
+@media (max-width:480px) {
+    .login {
+        display: none;
+    }
+}
+
+header {
+    width: 100%;
+    .login {
+        float: right;            
+
+            a {
+            text-decoration: none;
+            background-color:black;
+            color:white;
+            border: 2px solid #fff;
+            padding: 10px 20px; 
+            font-size: 16px;
+            font-weight: bold; 
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+    }  
+
+}
